@@ -1,0 +1,142 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Cor de fundo mais clara */
+    color: #555; /* Cor do texto principal */
+    animation: fadeIn 1s ease; /* Adiciona uma animação de fade in para o corpo da página */
+}
+
+.cabecalho {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.cabecalho h1 {
+    margin: 0;
+    font-size: 2rem; /* Tamanho do título */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cor amarela ao passar o mouse */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 15px; /* Reduz o padding em telas menores */
+    }
+
+    .cabecalho h1 {
+        font-size: 1.5rem; /* Reduz o tamanho do título em telas menores */
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    background-color: #fff; /* Cor de fundo do conteúdo principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: scaleIn 0.5s ease; /* Adiciona uma animação de escala ao container */
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Cor azul para o título */
+}
+
+main p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #333; /* Cor do texto */
+}
+
+/* Move o rodapé para o fim da página */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40; /* Cor de fundo mais escura para o rodapé */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 90%; /* Máxima largura do container */
+    margin: 20px auto; /* Centraliza o container */
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: scaleIn 0.5s ease; /* Adiciona uma animação de escala ao container */
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Cor azul para o título */
+}
+
+.container form {
+    text-align: center;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Cor do texto do rótulo */
+}
+
+.container form input[type="text"] {
+    width: calc(100% - 22px); /* Ajusta o tamanho do input */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container form p {
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #777; /* Cor do texto informativo */
+}
+
+.container form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+}

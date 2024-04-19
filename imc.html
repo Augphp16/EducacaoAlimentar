@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="shortcut icon" href="./assets/images/icon_9a5ece7584d0858ed80f7e6c78b7eaf5.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header class="cabecalho">
+
+    <h1>
+        Educação Alimentar
+    </h1>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="imc.html">Calculdora de IMC</a></li>
+            <li><a href="nutrientes.html">Nutrientes</a></li>
+            <li><a href="receitas.html">Receitas</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+  <section class="container">
+    <h1>Calcule seu IMC</h1>
+    <form action="/" id="form" method="post">
+      <label for="peso">Peso (KG)</label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">Altura (Metros)</label>
+      <input type="text" id="altura" name="altura">
+      <p>OBS: Use "." em números decimais</p>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 CafeTech</p>
+  </footer>
+
+  <script src="./assets/js/imc.js"></script>
+</body>
+
+</html>
