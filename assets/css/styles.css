@@ -18,6 +18,7 @@ body {
 .cabecalho h1 {
     margin: 0;
     font-size: 2rem; /* Tamanho do título */
+    font-style: italic;
 }
 
 nav ul {
@@ -82,7 +83,6 @@ main p {
     color: #333; /* Cor do texto */
 }
 
-/* Move o rodapé para o fim da página */
 footer {
     position: fixed;
     bottom: 0;
@@ -121,7 +121,7 @@ footer {
 }
 
 .container form input[type="text"] {
-    width: calc(100% - 22px); /* Ajusta o tamanho do input */
+    width: 100%; /* Ocupa toda a largura do container */
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -138,5 +138,38 @@ footer {
 
 .container form button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #007bff; /* Cor azul para o botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container form button:hover {
+    background-color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
 }
