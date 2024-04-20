@@ -9,7 +9,7 @@ body {
 }
 
 .cabecalho {
-    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    background-color: #46453a; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto */
     padding: 20px;
     text-align: center; /* Centraliza o conteúdo */
@@ -88,8 +88,8 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #343a40; /* Cor de fundo mais escura para o rodapé */
-    color: #fff;
+    background-color: #46453a;
+    color: white;
     padding: 10px 20px;
     text-align: center;
 }
