@@ -8,14 +8,14 @@ body {
     animation: fadeIn 1s ease; /* Adiciona uma animação de fade in para o corpo da página */
 }
 
-.cabecalho {
+header {
     background-color: #46453a; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto */
     padding: 20px;
     text-align: center; /* Centraliza o conteúdo */
 }
 
-.cabecalho h1 {
+header h1 {
     margin: 0;
     font-size: 2rem; /* Tamanho do título */
     font-style: italic;
@@ -44,11 +44,11 @@ nav ul li a:hover {
 
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {
-    .cabecalho {
+    header {
         padding: 15px; /* Reduz o padding em telas menores */
     }
 
-    .cabecalho h1 {
+    header h1 {
         font-size: 1.5rem; /* Reduz o tamanho do título em telas menores */
     }
 
@@ -153,6 +153,16 @@ footer {
 #resultado {
     margin-top: 20px;
     text-align: center;
+}
+
+.paragrafo-resultado {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+  
+.bad {
+    background-color: coral;
+    padding: 10px 20px;
 }
 
 /* Animations */
