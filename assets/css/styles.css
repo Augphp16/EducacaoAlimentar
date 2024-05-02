@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #46453a; /* Cor de fundo do cabeçalho */
+    background-color: #06811f; /* Cor de fundo do cabeçalho */
     color: #fff; /* Cor do texto */
     padding: 20px;
     text-align: center; /* Centraliza o conteúdo */
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Cor amarela ao passar o mouse */
+    color: #000000; /* Cor amarela ao passar o mouse */
 }
 
 /* Estilos responsivos */
@@ -74,7 +74,7 @@ main section {
 main h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #007bff; /* Cor azul para o título */
+    color: #161a18; /* Cor azul para o título */
 }
 
 main h4 {
@@ -115,7 +115,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #46453a;
+    background-color: #06811f;
     color: white;
     padding: auto;
     text-align: center;
@@ -134,7 +134,7 @@ footer {
 .container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #007bff; /* Cor azul para o título */
+    color: #161a18; /* Cor azul para o título */
 }
 
 .container form {
@@ -165,7 +165,7 @@ footer {
 
 .container form button {
     padding: 10px 20px;
-    background-color: #007bff; /* Cor azul para o botão */
+    background-color: #06811f; /* Cor azul para o botão */
     color: #fff; /* Cor do texto do botão */
     border: none;
     border-radius: 5px;
@@ -174,7 +174,7 @@ footer {
 }
 
 .container form button:hover {
-    background-color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+    background-color: #043207; /* Cor azul mais escura ao passar o mouse */
 }
 
 #resultado {
@@ -188,7 +188,7 @@ footer {
 }
   
 .bad {
-    background-color: coral;
+    background-color: rgb(255, 80, 80);
     padding: 10px 20px;
 }
 
@@ -210,3 +210,5 @@ footer {
         transform: scale(1);
     }
 }
+
+

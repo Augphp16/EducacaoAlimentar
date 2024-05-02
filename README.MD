@@ -6,6 +6,6 @@
 
 <p>Projeto voltado para educação alimentar
 
-<p><font color="red">Projeto em desenvolvimento</font></p>
+<p>Projeto em desenvolvimento</p>
 
 
