@@ -74,12 +74,67 @@ main section {
 main h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #161a18; /* Cor azul para o título */
+    color: black; /* Cor azul para o título */
+}
+
+main h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
 }
 
 main h4 {
     text-align: center;
     margin-bottom: 20px;
+    color: black
+}
+
+.receitas ol li {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: bold;
+    color: #3D3D3D;     
+}
+
+.receitas img {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.aj {
+    font-weight: bold;
+    font-size: 14px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+.receitas p {
+    text-align: center;
+}
+
+.receitas ul li {
+    font-family: "Helvetica", "Lucida Grande", sans-serif;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: bold;
+    color: #3D3D3D;  
 }
 
 main p {
@@ -190,6 +245,10 @@ footer {
 .bad {
     background-color: rgb(255, 80, 80);
     padding: 10px 20px;
+}
+
+.receitas {
+    text-align: center;
 }
 
 /* Animations */
