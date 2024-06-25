@@ -6,6 +6,12 @@
 
 <p>Projeto voltado para educação alimentar
 
-<p>Projeto em desenvolvimento</p>
+<img src="./assets/images/site/Captura de tela 2024-06-25 151353.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151459.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151517.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151536.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151614.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151633.png">
+<img src="./assets/images/site/Captura de tela 2024-06-25 151658.png">
 
 
